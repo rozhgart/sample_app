@@ -15,6 +15,7 @@ gem 'uglifier', '1.2.3'
 end
 gem 'jquery-rails', '2.0.2'
 group :test do
+gem 'factory_girl_rails', '1.4.0'
 gem 'capybara', '1.1.2'
 end
 group :production do
