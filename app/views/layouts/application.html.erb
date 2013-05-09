@@ -5,11 +5,16 @@
 <%= stylesheet_link_tag "application", media: "all" %>
 <%= javascript_include_tag "application" %>
 <%= csrf_meta_tags %>
+<<<<<<< HEAD
+=======
+
+>>>>>>> af76d9d8c2fd43a4490cab3841560ba786d8540e
 <%= render 'layouts/shim' %>
 </head>
 <body>
 <%= render 'layouts/header' %>
 <div class="container">
+<<<<<<< HEAD
 <% flash.each do |key, value| %>
 <div class="alert alert-<%= key %>"><%= value %></div>
 <% end %>
@@ -19,3 +24,10 @@
 </div>
 </body>
 </html>
+=======
+<%= yield %>
+<%= render 'layouts/footer' %>
+</div>
+</body>
+</html>
+>>>>>>> af76d9d8c2fd43a4490cab3841560ba786d8540e

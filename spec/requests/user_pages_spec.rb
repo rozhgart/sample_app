@@ -1,6 +1,7 @@
 require 'spec_helper'
 describe "User pages" do
 subject { page }
+<<<<<<< HEAD
 describe "profile page" do
 let(:user) { FactoryGirl.create(:user) }
 before { visit user_path(user) }
@@ -32,5 +33,11 @@ expect { click_button submit }.to change(User, :count).by(1)
 
 end
 end
+=======
+describe "signup page" do
+before { visit signup_path }
+it { should have_selector('h1', text: 'Sign up') }
+it { should have_selector('title', text: full_title('Sign up')) }
+>>>>>>> af76d9d8c2fd43a4490cab3841560ba786d8540e
 end
 end

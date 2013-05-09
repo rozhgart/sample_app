@@ -28,7 +28,11 @@ SampleApp::Application.configure do
   # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for nginx
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
+<<<<<<< HEAD
   config.force_ssl = true
+=======
+  # config.force_ssl = true
+>>>>>>> af76d9d8c2fd43a4490cab3841560ba786d8540e
 
   # See everything in the log (default is :info)
   # config.log_level = :debug

@@ -5,7 +5,11 @@ describe "Home page" do
 before { visit root_path }
 it { should have_selector('h1', text: 'Sample App') }
 it { should have_selector('title', text: full_title('')) }
+<<<<<<< HEAD
 it { should_not have_selector 'title', text: '| Home'}
+=======
+it { should_not have_selector 'title', text: '| Home' }
+>>>>>>> af76d9d8c2fd43a4490cab3841560ba786d8540e
 end
 describe "Help page" do
 before { visit help_path }

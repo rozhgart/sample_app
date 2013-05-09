@@ -1,6 +1,16 @@
 require File.expand_path('../boot', __FILE__)
 
+<<<<<<< HEAD
 require 'rails/all'
+=======
+# Pick the frameworks you want:
+require "active_record/railtie"
+require "action_controller/railtie"
+require "action_mailer/railtie"
+require "active_resource/railtie"
+require "sprockets/railtie"
+# require "rails/test_unit/railtie"
+>>>>>>> af76d9d8c2fd43a4490cab3841560ba786d8540e
 
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
